@@ -2,5 +2,7 @@ package com.gtunes
 
 class UserController {
 
-    def register() {}
+    def register() {
+    	render(view: "register")
+    }
 }
